@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+def my_boost_dir = local_props("boost.dir")
+def my_boost_dir_libs = my_boost_dir + "/libs/llvm"
+def my_boost_dir_inc  = my_boost_dir + "/include"
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "thiagosalvadori.driverbehavior"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+                // this causes libc++_shared.so to get packaged into .apk
+                arguments '-DANDROID_STL=c++_shared'
+
+                // This is used in CMakeLists.txt so our native code can find/use (prebuilt) boost
+                arguments '-DMY_BOOST_LIBS_DIR=' + my_boost_dir_libs
+                arguments '-DMY_BOOST_INC_DIR='  + my_boost_dir_inc
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+
+    sourceSets {
+        main {
+            // Android Studio doesn't package precompiled external (*.so) libs into apk, even if linked against via "add_library (... SHARED IMPORTED) in CMakeLists.txt
+            // See eg https://stackoverflow.com/questions/24357687/how-to-include-so-library-in-android-studio/29234765
+            // Hopefully this will be remedied in near future.
+            // As a workaroun in the meantime, need to add them manually to jniLibs.srcDirs
+            // Note: This causes ALL *.so files in ABI (eg "armeabi-v7a") subdir of this dir to get packaged into .apk - relative to "app" dir
+            // If you want to just include those necessary (eh chrono,, system) copy/link them to a separate dir, and reference that dir here instead.
+            jniLibs.srcDirs = [
+                    // should contain any external libs which should be compiled in {armeabi-v7a,arm64-v8a,x86,x86_64,mips} subdirs
+                    my_boost_dir_libs
+
+                    //, "src/main/JniLibs/boost" // could add additional dirs (with ABI subdirs) to be packaged into apk like this.
+                    // Relative paths like this will be interpreted as relative to "app" dir
+            ]
+        }
+    }
+
+}
+
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v2.1.6'
+}
+
+//------------------------------------------------------------
+def local_props(key) { // reads ~ value from local.properties file
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def val = properties.getProperty(key, null)
+    if (val == null)
+        throw new GradleException("""\
+                cant find value '${key}' in file 'local.properties'.  """)
+
+    return val
+}

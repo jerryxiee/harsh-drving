@@ -1,0 +1,14 @@
+# ninja log v5
+7	598	597751921	CMakeFiles/native-lib.dir/circular_queue.cpp.o	96789a3feecfcde4
+9	606	597751921	CMakeFiles/native-lib.dir/fifo.cpp.o	902865ba268e53f0
+5	617	597751921	CMakeFiles/native-lib.dir/applied_math.cpp.o	f774306e70330dc7
+4	624	597751921	CMakeFiles/native-lib.dir/gps.cpp.o	b591ab08dfa1d46
+2	650	597751921	CMakeFiles/native-lib.dir/utility.cpp.o	26cd8bf18da449c1
+606	869	597751921	CMakeFiles/native-lib.dir/systemstate.cpp.o	a7d7b8e41a7e7bf3
+599	1519	597751922	CMakeFiles/native-lib.dir/g_sensor.cpp.o	8179bd47b24083b1
+1	5248	597751926	CMakeFiles/native-lib.dir/alarmhandle.cpp.o	57f0fa4dda6eee7e
+618	5526	597751926	CMakeFiles/native-lib.dir/native-lib.cpp.o	872e572146e450d
+5526	5781	597751926	E:/work/DriverBehavior-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	5e4107cd076c4852
+12	621	597752156	CMakeFiles/native-lib.dir/g_sensor.cpp.o	8179bd47b24083b1
+13	3281	597752158	CMakeFiles/native-lib.dir/native-lib.cpp.o	872e572146e450d
+3281	3369	597752159	E:/work/DriverBehavior-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	5e4107cd076c4852

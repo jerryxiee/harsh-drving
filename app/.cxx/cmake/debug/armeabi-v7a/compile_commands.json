@@ -1,0 +1,55 @@
+[
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\alarmhandle.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\alarmhandle.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\alarmhandle.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\utility.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\utility.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\utility.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\gps.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\gps.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\gps.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\applied_math.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\applied_math.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\applied_math.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\circular_queue.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\circular_queue.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\circular_queue.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\fifo.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\fifo.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\fifo.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\g_sensor.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\g_sensor.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\g_sensor.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\systemstate.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\systemstate.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\systemstate.cpp"
+},
+
+{
+  "directory": "E:/work/DriverBehavior-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:/Users/Administrator/AppData/Local/Android/Sdk/ndk_20_boost_1.71.0/include -IE:/work/DriverBehavior-master/app/src/main/cpp/src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "E:\\work\\DriverBehavior-master\\app\\src\\main\\cpp\\native-lib.cpp"
+}
+]

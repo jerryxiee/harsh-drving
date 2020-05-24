@@ -1,0 +1,23 @@
+Executable : C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\work\DriverBehavior-master\app\src\main\cpp
+-BE:\work\DriverBehavior-master\app\.cxx\cmake\debug\x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\work\DriverBehavior-master\app\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\20.0.5594570
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\20.0.5594570
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk\20.0.5594570\build\cmake\android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DANDROID_STL=c++_shared
+-DMY_BOOST_LIBS_DIR=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk_20_boost_1.71.0/libs/llvm
+-DMY_BOOST_INC_DIR=C:\Users\Administrator\AppData\Local\Android\Sdk\ndk_20_boost_1.71.0/include
+jvmArgs : 
+
